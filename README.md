@@ -14,6 +14,8 @@
 2. Khi hai ô số có giá trị giống nhau chạm vào nhau, chúng sẽ hợp nhất thành một ô số mới có giá trị gấp đôi.
 3. Tiếp tục kết hợp các ô số cho đến khi tạo ra ô số 2048 hoặc không còn nước đi nào hợp lệ.
 
+![image](https://github.com/user-attachments/assets/c27701c4-7b47-4301-aa90-de4f848ba0a0)
+
 **Cài đặt và sử dụng:**  
 1. Clone repository này về máy tính của bạn:
    ```bash
