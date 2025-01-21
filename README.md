@@ -1,9 +1,3 @@
-# 2048-Game
-
-Để giúp bạn mô tả cơ bản về trò chơi **2048** khi upload lên GitHub, dưới đây là một mô tả đơn giản và dễ hiểu cho dự án của bạn:
-
----
-
 ### **2048 Game**
 **Mô tả:**  
 2048 là một trò chơi puzzle đơn giản nhưng gây nghiện, nơi người chơi phải trượt các ô số trên bảng để kết hợp chúng và tạo ra ô số 2048. Trò chơi bắt đầu với hai ô số có giá trị là 2 hoặc 4, và người chơi có thể di chuyển các ô số theo bốn hướng: lên, xuống, trái và phải. Khi hai ô có cùng giá trị gặp nhau, chúng sẽ kết hợp lại thành một ô mới có giá trị gấp đôi. Mục tiêu cuối cùng của trò chơi là tạo ra ô số có giá trị 2048.
