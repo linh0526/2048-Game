@@ -1,0 +1,109 @@
+:root {
+    --primary: #988876;
+    --primary-foreground: #FFFFFF;
+    --background:#ffecd9;
+    --foreground: #988876;
+    --card: #e2d5c4;
+    --card-foreground: #EAE7D9;
+    --border: #DEE2E6;
+    --input: #E9ECEF;
+    --radius: 0.7rem;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#new-game{
+    background: #998C7D;
+    border: none;
+}    
+#new-game:hover{
+    background: #91795e;
+    border: none;
+} 
+#new-game:active{
+    background: #80623f;
+    border: none;
+} 
+
+
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #bbada0;
+    border: 6px solid #bbada0;
+
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+
+.cell {
+    width: 97px;
+    height: 97px;
+
+    background-color: #cdc1b5;
+    border: 5px solid #bbada0;
+
+    background: var(--card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 0.15s ease-in-out;
+}
+
+.score-box {
+    background: var(--card);
+    padding: 10px 20px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.score-box .label {
+    font-size: 0.8rem;
+    color: var(--foreground);
+    opacity: 0.8;
+}
+
+.score-box .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.cell[data-value="2"] { background: #EEE4DA; }
+.cell[data-value="4"] { background: #EDE0C8; }
+.cell[data-value="8"] { background: #F2B179; color: white; }
+.cell[data-value="16"] { background: #F59563; color: white; }
+.cell[data-value="32"] { background: #F67C5F; color: white; }
+.cell[data-value="64"] { background: #F65E3B; color: white; }
+.cell[data-value="128"] { background: #EDCF72; color: white; }
+.cell[data-value="256"] { background: #EDCC61; color: white; }
+.cell[data-value="512"] { background: #EDC850; color: white; }
+.cell[data-value="1024"] { background: #EDC53F; color: white; }
+.cell[data-value="2048"] { background: #EDC22E; color: white; }
+.cell[data-value="4096"] { background: #EDC22E; color: white; }
+.cell[data-value="8192"] { background: #EDC22E; color: white; }
+
+
+@media (max-width: 576px) {
+    #board {
+        margin: 10px;
+    }
+    
+    .cell {
+        font-size: 1.2rem;
+    }
+}
